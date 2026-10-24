@@ -1,0 +1,34 @@
+{
+  "contract": "juss/council-model-capability-profile@v1",
+  "repository": "jussray/exact-match-engine-",
+  "defaultBranch": "main",
+  "preparedAgainstBaseSha": "a4a77b7c1a22ee9423aa1d7adad2adc2f16b265a",
+  "authorityHost": "jussray/founder-control-room",
+  "providerExecutionHost": "jussray/founder-control-room",
+  "projectRole": "duplicate_or_unconfirmed_exact_match_repository",
+  "activation": "blocked_until_authority_confirmed",
+  "runtimeActivation": false,
+  "restrictedContextAllowed": false,
+  "lanes": [],
+  "authority": {
+    "selectionAuthority": false,
+    "executionAuthority": false,
+    "mergeAuthority": false,
+    "deployAuthority": false,
+    "publishAuthority": false,
+    "spendAuthority": false,
+    "providerMutationAuthority": false
+  },
+  "promotionGate": [
+    "fresh task-specific local receipts",
+    "provider evidence for the exact invocation",
+    "project-local focused tests",
+    "runtime proof for live claims",
+    "Playwright proof for user-facing flows"
+  ],
+  "projectGuards": [
+    "do not activate model routing until canonical repository authority is confirmed",
+    "do not duplicate exact-match-engine runtime or evidence authority"
+  ],
+  "rollback": "Remove this profile and any consumer mapping that references it; no secret or deployment state is stored here."
+}
